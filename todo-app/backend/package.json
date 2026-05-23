@@ -1,0 +1,13 @@
+{
+  "name": "todo-backend",
+  "version": "1.0.0",
+  "description": "待办事项后端 API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
