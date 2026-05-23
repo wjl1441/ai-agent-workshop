@@ -6,3 +6,7 @@ ai_agent学习记录*
 
 # 无效脚本（沙箱限制，无法运行）
 *.py
+
+# 项目产物
+todo-app/
+node_modules/
