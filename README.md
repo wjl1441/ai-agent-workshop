@@ -41,6 +41,8 @@
 | `study-stats` | 从笔记中提取学习统计数据 | Read + Write |
 | `study-review` | 生成结构化复盘报告 | Read + Write |
 | `writing-agent` | 格式化写作（周报/笔记/对比报告） | Read + Write |
+| `e-commerce-agent` | 电商客服（独立项目） | — |
+| `dev-supervisor` | 开发团队（独立项目） | — |
 
 ---
 
@@ -104,19 +106,19 @@ Supervisor 拆解：① 搜索（派 search-agent）② 查数据（调 study-st
 │   ├── scenario-search-compare.md    ← 搜索+对比示例
 │   └── scenario-weekly-report.md     ← 周报生成示例
 ├── .claude/skills/
-│   ├── learning-agent/               ← 主管
+│   ├── learning-agent/
 │   │   ├── SKILL.md
 │   │   └── references/
-│   │       └── preferences.md        ← 用户偏好记忆
-│   ├── search-agent/                 ← 搜索
+│   │       └── preferences.md
+│   ├── search-agent/
 │   │   └── SKILL.md
-│   ├── study-stats/                  ← 数据提取
+│   ├── study-stats/
 │   │   └── SKILL.md
-│   ├── study-review/                 ← 复盘
+│   ├── study-review/
 │   │   ├── SKILL.md
 │   │   └── references/
 │   │       └── review-template.md
-│   └── writing-agent/                ← 写作
+│   └── writing-agent/
 │       └── SKILL.md
 
 ```
